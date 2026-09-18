@@ -1,0 +1,102 @@
+.box-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.demo-box {
+    background-color: lightblue;
+    min-height: 80px;
+}
+
+.border-0 {
+    border: 0 solid black;
+    padding: 10px;
+}
+
+.border-5 {
+    border: 5px solid black;
+    padding: 10px;
+}
+
+.border-10 {
+    border: 10px solid black;
+    padding: 10px;
+}
+
+.margin-0 {
+    border: 2px solid black;
+    margin: 0;
+    padding: 10px;
+}
+
+.margin-5 {
+    border: 2px solid black;
+    margin: 5px;
+    padding: 10px;
+}
+
+.margin-10 {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.padding-0 {
+    border: 2px solid black;
+    padding: 0;
+}
+
+.padding-5 {
+    border: 2px solid black;
+    padding: 5px;
+}
+
+.padding-10 {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.position-card {
+    position: relative;
+    border: 2px solid navy;
+    padding: 30px;
+    margin: 30px 0;
+}
+
+.position-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    background-color: gold;
+    padding: 5px;
+}
+
+.sticky-note {
+    position: sticky;
+    top: 0;
+
+    background-color: lightyellow;
+    padding: 10px;
+}
+
+footer {
+    position: fixed;
+
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+
+    background-color: #222;
+    color: white;
+
+    text-align: center;
+
+    padding: 10px;
+}
+
+body {
+    padding-bottom: 70px;
+}

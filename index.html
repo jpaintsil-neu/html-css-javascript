@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS 5610 Web Development | John Paintsil</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="#html-basics">HTML</a>
+        <a href="#seo">SEO</a>
+        <a href="#box-model">Box Model</a>
+        <a href="#css-demo">CSS Demo</a>
+    </nav>
+
+    <main>
+
+        <h1>CS 5610 HTML+CSS+JavaScript Self Assessment</h1>
+
+        <section id="#html-basics">
+
+            <h2>1. HTML Fundamentals</h2>
+
+            <h3>1.1 10 Useful HTML Tags</h3>
+            <ol>
+                <li>&lt;div&gt; — generic block container</li>
+                <li>&lt;span&gt; — generic inline container</li>
+                <li>&lt;a&gt; — creates hyperlinks</li>
+                <li>&lt;p&gt; — creates paragraphs</li>
+                <li>&lt;img&gt; — displays images</li>
+                <li>&lt;section&gt; — defines a section of content</li>
+                <li>&lt;nav&gt; — identifies navigation</li>
+                <li>&lt;header&gt; — represents introductory content</li>
+                <li>&lt;footer&gt; — represents footer content</li>
+                <li>&lt;form&gt; — creates a form for user input</li>
+            </ol>
+
+            <h3>1.2 Layout Using Only Divs and Spans (3 × 3)</h3>
+            <h4>Game: Tic-Tac-Toe</h4>
+            <div>
+                <span>X</span> |
+                <span>O</span> |
+                <span>O</span>
+            </div>
+            <div>
+                <span>O</span> |
+                <span>X</span> |
+                <span>O</span>
+            </div>
+            <div>
+                <span>X</span> |
+                <span>O</span> |
+                <span>X</span>
+            </div>
+        </section>
+
+        <section id="seo">
+
+            <h2>2. Search Engine Optimization (SEO)</h2>
+          
+            <p>
+                SEO makes it easy for search engines to find and understand what your website is about. The following is a breakdown of the most important header tags:
+            </p>
+          
+            <ul>
+              <li>
+                <strong>Title:</strong>
+                This is the title of your web page, the one that people see when they carry out an online search. It's similar to the title of a book.
+              </li>
+          
+              <li>
+                <strong>Meta Description:</strong>
+                This provides a short summary of the page that search engines
+                may display in search results.
+              </li>
+          
+              <li>
+                <strong>Charset:</strong>
+                This tells computers how the characters on your page should be encoded so that they can read them correctly and makes sure that all the text is displayed properly.
+              </li>
+          
+              <li>
+                <strong>Viewport:</strong>
+                This ensures that your web page displays well on mobile devices by making it adapt correctly to various screen sizes.
+              </li>
+          
+              <li>
+                <strong>Robots:</strong>
+                This gives search-engine crawlers instructions about indexing the
+                page and following its links.
+              </li>
+          
+              <li>
+                <strong>Canonical:</strong>
+                This refers to the primary version of a web page when there are several pages that are very similar to one another, and it helps prevent confusion for search engines.
+              </li>
+          
+              <li>
+                <strong>H1-H3 Headings:</strong>
+                These headings are used to organize the content of your page; they help both readers and search engines in understanding the main subjects and the structure of your web page.
+              </li>
+            </ul>
+          
+          </section>
+
+        <section id="box-model">
+
+            <h2>3 CSS Box Model</h2>
+
+            <h3>3.1 CSS Box Model Gallery</h3>
+
+            <div class="box-gallery">
+
+                <div class="demo-box border-0">
+                    Border: 0px
+                </div>
+
+                <div class="demo-box border-5">
+                    Border: 5px
+                </div>
+
+                <div class="demo-box border-10">
+                    Border: 10px
+                </div>
+
+                <div class="demo-box margin-0">
+                    Margin: 0px
+                </div>
+
+                <div class="demo-box margin-5">
+                    Margin: 5px
+                </div>
+
+                <div class="demo-box margin-10">
+                    Margin: 10px
+                </div>
+
+                <div class="demo-box padding-0">
+                    Padding: 0px
+                </div>
+
+                <div class="demo-box padding-5">
+                    Padding: 5px
+                </div>
+
+                <div class="demo-box padding-10">
+                    Padding: 10px
+                </div>
+
+            </div>
+        </section>
+
+        <section id="seo">
+
+            <h2>4. CSS Fonts and Positioning</h2>
+
+            <h3>4.1 Font Size Units</h3>
+
+            <ul>
+
+                <li>
+                    <span style="font-size: 16px;">
+                        John Paintsil.
+                    </span>
+                    — px is useful when precise screen sizing is needed.
+                </li>
+
+                <li>
+                    <span style="font-size: 18pt;">
+                        John Paintsil.
+                    </span>
+                    — pt is traditionally useful for print-oriented measurements.
+                </li>
+
+                <li>
+                    <span style="font-size: 1em;">
+                        John Paintsil.
+                    </span>
+                    — em scales relative to the parent's font size.
+                </li>
+
+                <li>
+                    <span style="font-size: 1.25rem;">
+                        John Paintsil.
+                    </span>
+                    — rem scales relative to the root HTML font size.
+                </li>
+
+                <li>
+                    <span style="font-size: 125%;">
+                        John Paintsil.
+                    </span>
+                    — percentages scale relative to the parent's font size.
+                </li>
+
+                <li>
+                    <span style="font-size: larger;">
+                        John Paintsil.
+                    </span>
+                    — larger asks the browser for a size larger than the inherited size.
+                </li>
+
+            </ul>
+        </section>
+        <section id="css-demo">
+
+            <h3>4.2 CSS Positioning Demonstration</h3>
+
+            <div class="position-card">
+
+                <h3>Relative Parent</h3>
+
+                <p>
+                    This card uses relative positioning.
+                </p>
+
+                <span class="position-badge">
+                    Absolute
+                </span>
+
+            </div>
+
+            <div class="sticky-note">
+                Sticky: Remain near the top while scrolling.
+            </div>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026. CS 5610 Web Development. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
